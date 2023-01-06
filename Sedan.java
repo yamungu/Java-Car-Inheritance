@@ -12,7 +12,7 @@ public class Sedan extends Car {
         if(this.length > 20) {
             return super.getSalePrice() * 0.05;
         } else {
-            return 0.1;
+            return super.getSalePrice() * 0.1;
         }
     }
 }
